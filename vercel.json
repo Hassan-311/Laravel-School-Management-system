@@ -1,26 +1,14 @@
 {
-    "version": 2,
-    "framework": null,
-    "functions": {
-        "api/index.php": { "runtime": "vercel-php@0.7.1" }
-    },
-    "routes": [
-        { "src": "/(.*)", "dest": "/api/index.php" }
-    ],
-    "outputDirectory": "public",
-    "env": {
-        "APP_ENV": "production",
-        "APP_DEBUG": "true",
-        "APP_URL": "https://laravel-school-management-system.vercel.app",
-        "APP_KEY": "base64:fA6BNo0rQhNEiyF3sDpk3izv5RBepz9V8VYzKXYWrPA=",
-        "LOG_CHANNEL": "stderr",
-        "CACHE_DRIVER": "array",
-        "SESSION_DRIVER": "cookie",
-        "DB_CONNECTION": "mysql",
-        "DB_HOST": "bjy7kax0ibwxgdigjm6m-mysql.services.clever-cloud.com",
-        "DB_PORT": "3306",
-        "DB_DATABASE": "bjy7kax0ibwxgdigjm6m",
-        "DB_USERNAME": "uye6pbndbgu6co3d",
-        "DB_PASSWORD": "Ik3J7x2WLDI40ihumHoW"
+  "version": 2,
+  "functions": {
+    "api/index.php": {
+      "runtime": "vercel-php@0.7.1"
     }
+  },
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/api/index.php"
+    }
+  ]
 }
